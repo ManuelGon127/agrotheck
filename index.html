@@ -1,0 +1,130 @@
+<html lang="es">  
+<head>  
+ <meta charset="UTF-8">  
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+ <title>Agrotheck S.A.S.</title>  
+ <style>  
+ body {  
+ font-family: Arial, sans-serif;  
+ margin:0;  
+ padding:0;  
+ background-image: url('fondo.jpg'); /* Asegúrate de tener una imagen de fondo */  
+ background-size: cover;  
+ background-position: center;  
+ color: #1b0303;  
+ }  
+ header {  
+ background-color: rgba(139, 183, 226, 0.8); /* Fondo azul semitransparente */  
+ color: rgb(17, 2, 2);  
+ padding:20px0;  
+ text-align: center;  
+ }  
+ nav a {  
+ margin:015px;  
+ color: rgb(19, 2, 2);  
+ text-decoration: none;  
+ font-weight: bold;  
+ }  
+ .container {  
+ padding:20px;  
+ max-width:800px;  
+ margin: auto;  
+ background: rgba(255,255,255,0.8); /* Fondo blanco semitransparente */  
+ color: #333;  
+ border-radius:8px;  
+ }  
+ section {  
+ margin-bottom:20px;  
+ padding:10px;  
+ border-radius:5px;  
+ }  
+ .social-media {  
+ text-align: center;  
+ margin-top:20px;  
+ }  
+ .social-media a {  
+ margin:010px;  
+ text-decoration: none;  
+ color: #03070c;  
+ }  
+ footer {  
+ text-align: center;  
+ padding:10px0;  
+ background-color:rgba(2, 8, 15, 0.8);  
+ color: white;  
+ }  
+ img {  
+ width:100%;  
+ max-width:300px;  
+ border-radius:10px;
+ margin:10px0;  
+ }  
+ </style>  
+</head>  
+<body>  
+
+ <header>  
+ <img src="assets/LOGO.png" alt="Logo Agrotheck S.A.S." style="max-width:230px;">  
+ <h1>AGROTHECK S.A.S</h1>  
+ <p><em>SENBRANDO TECNOLOGIA COSECHANDO FUTURO</em></p>  
+ <nav>  
+ <a href="#mision">Misión</a>  
+ <a href="#vision">Visión</a>  
+ <a href="#objetivos">Objetivos</a>  
+ <a href="#contacto">Contacto</a>  
+ </nav>  
+ </header>  
+
+ <div class="container">  
+ <section id="mision">  
+ <h2>Misión</h2>  
+ <p>tiene como misión transformar la agricultura a través de la tecnología, optimizando los procesos productivos, promoviendo prácticas sostenibles y asegurando la seguridad alimentaria global, mejorando la calidad de vida de los agricultores y consumidores.</p>  
+ <img src="assets/mision.png" alt="Misión Agrotheck"> <!-- Asegúrate de tener esta imagen -->  
+ </section>  
+
+ <section id="vision">  
+ <h2>Visión</h2>  
+ <p>Ser líderes mundiales en soluciones tecnológicas para la agricultura, reconocidos por nuestra innovación, eficiencia y compromiso con la sostenibilidad, contribuyendo a un futuro alimentario más seguro y próspero.</p>  
+ <img src="assets/Visión.webp" alt="Visión Agrotheck"> <!-- Asegúrate de tener esta imagen -->  
+ </section>  
+
+ <section id="objetivos">  
+ <h2>Objetivos</h2>  
+ <ul>  
+ <li>· INNOVACION TECNOLOGICA:Desarrollar y comercializar soluciones tecnológicas de vanguardia para la agricultura, como sensores inteligentes, drones, software de análisis de datos y sistemas de riego automatizados.Establecer alianzas estratégicas con universidades y centros de investigación para fomentar la investigación y el desarrollo en el sector agropecuario</li>  
+ <li>· SOSTENIBILIDAD:Promover prácticas agrícolas sostenibles, reduciendo el uso de productos químicos y optimizando el uso del agua y la energía</li>  
+ <li>· CRECIMIENTO Y EXPANCION :Consolidar nuestra presencia en el mercado nacional e internacional, llegando a nuevos segmentos de agricultores y regiones geográficas.</li>  
+ <li>. SATISFACCION DEL CLIENTE :Ofrecer un servicio de alta calidad, brindando soporte técnico y capacitación a nuestros clientes.Desarrollar relaciones a largo plazo con nuestros clientes, basadas en la confianza y la satisfacción.</li>  
+ </ul>  
+ <img src="assets/desktop_33b45f15-e0d8-4afe-8211-1ae980bba7d8.jpg" alt="Objetivos Agrotheck"> <!-- Asegúrate de tener esta imagen -->  
+ </section>  
+
+ <section id="contacto">  
+ <h2>Contacto</h2>  
+ <p>Conéctate con nosotros a través de nuestras redes sociales:</p>  
+ <div class="social-media">  
+ <a href="https://www.facebook.com/Agrotheck" target="_blank">Facebook</a>  
+ <a href="https://www.twitter.com/Agrotheck" target="_blank">Twitter</a>  
+ <a href="https://www.instagram.com/Agrotheck" target="_blank">Instagram</a>  
+ <a href="https://www.linkedin.com/company/agrotheck" target="_blank">LinkedIn</a>  
+ </div>  
+ </section>  
+ </div>  
+
+ <footer>  
+ <p>&copy;2024 Agrotheck S.A.S. Todos los derechos reservados.</p>  
+ </footer>  
+ <script>  
+ // Desplazamiento suave document.querySelectorAll('nav a').forEach(anchor => {  
+ anchor.addEventListener('click', function(e) {  
+ e.preventDefault();  
+ const targetId = this.getAttribute('href');  
+ const targetElement = document.querySelector(targetId);  
+ if (targetElement) {  
+ targetElement.scrollIntoView({ behavior: 'smooth' });  
+ }  
+ });    
+ </script>  
+
+</body>  
+</html>
